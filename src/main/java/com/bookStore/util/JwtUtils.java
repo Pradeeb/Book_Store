@@ -28,6 +28,7 @@ public class JwtUtils {
 				.signWith(SignatureAlgorithm.HS512, secret.getBytes(StandardCharsets.UTF_8))
 				.compact();  //with out pay load
 		
+		//continue tomorrow
 
 		
 	}
