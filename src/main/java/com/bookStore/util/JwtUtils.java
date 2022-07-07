@@ -19,7 +19,7 @@ public class JwtUtils {
 	//claims
 		Claims claims=Jwts.claims().setIssuer(String.valueOf(""));
 		
-	//generate JWT token using claims
+	    //generate JWT token using claims
 		
 		//return Jwts.builder().setClaims(claims).signWith(SignatureAlgorithm.ES512, secret).compact(); //we need add payload
 		
@@ -29,6 +29,7 @@ public class JwtUtils {
 				.compact();  //with out pay load
 		
 		//continue tomorrow
+		//this code in feature branch code
 
 		
 	}
